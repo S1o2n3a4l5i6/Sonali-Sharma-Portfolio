@@ -1,0 +1,125 @@
+/* GLOBAL STYLES */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/* HEADER */
+.header {
+    background-color: #1f2933;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.subtitle {
+    margin: 5px 0;
+    font-weight: normal;
+}
+
+/* SECTION HEADINGS */
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #1f2933;
+}
+
+/* ABOUT */
+.about p {
+    text-align: center;
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* SKILLS */
+.skills {
+    background-color: #e0e7ff;
+    padding: 50px 0;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skills-list span {
+    background: #2563eb;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+/* PROJECTS */
+.projects {
+    padding: 50px 0;
+}
+
+.project-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: #2563eb;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #1e40af;
+}
+
+/* CONTACT */
+.contact {
+    background-color: #f4f6f8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #1f2933;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
